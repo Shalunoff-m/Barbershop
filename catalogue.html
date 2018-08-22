@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Барбершоп "Бородинский"</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Заголовочная информация -->
+    <header class="main-header">
+        <nav class="main-navigation">
+            <a class="main-header-logo" href="#logo">
+                <img src="" alt="logo">
+            </a>
+            <ul class="site-navigation">
+                <li>
+                    <a href="#">Информация</a>
+                </li>
+                <li>
+                    <a href="#">Новости</a>
+                </li>
+                <li>
+                    <a href="#">Прайс-лист</a>
+                </li>
+                <li>
+                    <a href="#">Магазин</a>
+                </li>
+                <li>
+                    <a href="#">Контакты</a>
+                </li>
+            </ul>
+            <ul class="user-navigation">
+                <li class="login-link">Вход</li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Основной блок -->
+    <main class="container">
+        <h1 class="page-title">Средства для ухода</h1>
+
+        <ul class="breadcrumbs">
+            <li>
+                <a href="#">Главная</a>
+            </li>
+            <li>
+                <a href="#">Магазин</a>
+            </li>
+            <li class="breadcrumbs-current">Средства для ухода</li>
+        </ul>
+
+        <section class="filters">
+            <h2 class="visually-hidden">Фильтр товаров</h2>
+            <!-- Здесь будет форма -->
+        </section>
+        <section class="catalogue">
+            <h2 class="visually-hidden">Список средств для ухода</h2>
+            <ul class="catalogue-list">
+                <li class="catalogue-item">
+                    <h3>
+                        <a href="#">
+                            <span>Набор для путешествий</span>
+                            <span>"Baxter of California</span>
+                        </a>
+                    </h3>
+                    <p class="catalogue-item-image">
+                        <a href="#">
+                            <img src="" alt="" width="" height="" alt="Набор для путешествий Baxter of California">
+                        </a>
+                    </p>
+                    <p class="catalogue-item-price">
+                        <b>2900 р</b>
+                        <a class="button" href="#">Купить</a>
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <ul class="pagination-list">
+            <li class="pagination-item">
+                <a href="#">1</a>
+            </li>
+            <li class="pagination-item pagination-item-current">
+                <a>2</a>
+            </li>
+            <li class="pagination-item">
+                <a href="#">3</a>
+            </li>
+            <li class="pagination-item">
+                <a href="#">4</a>
+            </li>
+        </ul>
+
+    </main>
+    <!-- Футер -->
+    <footer class="main-footer">
+        <div class="address">
+            <p>Барбершоп «бородинский»
+                <br> адрес: г. Санкт-петербург, ул. Б. Конюшенная, д. 19/8
+                <br> Как нас найти?
+                <br> Телефон: +7 (495) 666-02-66
+            </p>
+        </div>
+        <div class="footer-social">
+            <b>Давай-те дружить!</b>
+            <ul>
+                <li class="social-item">
+                    <a href="#">Вконтакте</a>
+                </li>
+                <li class="social-item">
+                    <a href="#">Facebook</a>
+                </li>
+                <li class="social-item">
+                    <a href="#">Instagram</a>
+                </li>
+            </ul>
+        </div>
+        <div class="author">
+            <b>Разработано:</b>
+            <a class="button" href="http://ya.ru">html academy</a>
+        </div>
+
+    </footer>
+    <div class="modal modal-login">
+        <h2>Личный кабинет</h2>
+        <p>Введите пожалуйста свой логин и пароль</p>
+        <form action="#" method="POST">
+            <label for="modal-login-name">Логин</label>
+            <input type="text" name="modal-login-name" id="modal-login-name">
+            <label for="modal-login-password">Пароль</label>
+            <input type="password" name="modal-login-password" id="modal-login-password">
+            <input type="checkbox" id="forgive-me" name="forgive-me">
+            <p>
+                <label for="forgive-me">Запомните меня</label>
+                <a href="#" class="remember-password">Я забыл пароль!</a>
+            </p>
+            <input type="submit" value="Войти">
+        </form>
+    </div>
+
+</body>
+
+</html>
