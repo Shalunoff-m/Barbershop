@@ -1,7 +1,18 @@
-$font-stack : Helvetica,
+$font-stack: Helvetica,
+Arial,
 sans-serif;
-$primary-color: #333;
+$primary-color: rgb(238, 216, 14);
 body {
     font: 100% $font-stack;
     color: $primary-color;
+}
+
+$color: white;
+@mixin colors($color: blue) {
+    background-color: $color;
+    border-color: $color;
+}
+
+.colors {
+    @include colors ($color);
 }
