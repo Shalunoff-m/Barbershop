@@ -1,11 +1,6 @@
-body {
-  font: 100% Helvetica, Arial, sans-serif;
-  color: #eed80e;
-}
-
-.colors {
-  background-color: white;
-  border-color: white;
+.header__background {
+  background-color: black;
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
